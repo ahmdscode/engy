@@ -165,6 +165,15 @@ bot.onText(/\/time/, (msg) => {
   }
 });
 
+const message = 'Your message here';
+
+if (message && message.trim() !== '') {
+  bot.sendMessage(userId, message);
+} else {
+  console.log('Message is empty, not sending.');
+}
+
+
 // Handle user input for time setting
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
