@@ -116,6 +116,18 @@ const sendDailyPhrase = (chatId) => {
   saveUsers(users);
 };
 
+bot.once('message', (message) => {
+  const time = message.text;
+  
+  if (!time || time.trim() === '') {
+    bot.sendMessage(message.chat.id, 'You didn’t provide a time. Please try again.');
+    return;  // Exit to prevent sending an empty message
+  }
+
+  saveUserData(message.chat.id, time);
+  bot.sendMessage(message.chat.id, `Your preferred time has been set to ${time}.`);
+});
+
 
 // Handle the /start command
 bot.onText(/\/start/, (msg) => {
