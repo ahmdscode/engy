@@ -1,0 +1,944 @@
+[
+{
+"en": "apple",
+"ru": "яблоко",
+"meaning_en": "A round fruit with red or green skin and a whitish interior.",
+"meaning_ru": "Круглый фрукт с красной или зеленой кожурой и беловатым внутри."
+},
+{
+"en": "dog",
+"ru": "собака",
+"meaning_en": "A domesticated carnivorous mammal known for its loyalty and companionship.",
+"meaning_ru": "Одомашненное хищное млекопитающее, известное своей преданностью и дружелюбием."
+},
+{
+"en": "car",
+"ru": "машина",
+"meaning_en": "A motor vehicle with four wheels used for transportation.",
+"meaning_ru": "Моторное транспортное средство с четырьмя колесами, используемое для перевозки людей."
+},
+{
+"en": "house",
+"ru": "дом",
+"meaning_en": "A building for human habitation, typically one that is lived in by a family.",
+"meaning_ru": "Здание для проживания людей, обычно то, в котором живет семья."
+},
+{
+"en": "book",
+"ru": "книга",
+"meaning_en": "A set of written or printed pages, typically bound with a cover.",
+"meaning_ru": "Набор написанных или напечатанных страниц, обычно скрепленных обложкой."
+},
+{
+"en": "cat",
+"ru": "кот",
+"meaning_en": "A small domesticated carnivorous mammal with soft fur, often kept as a pet.",
+"meaning_ru": "Небольшое одомашненное хищное млекопитающее с мягким мехом, часто держится как домашнее животное."
+},
+{
+"en": "tree",
+"ru": "дерево",
+"meaning_en": "A perennial plant with an elongated stem or trunk that supports branches and leaves.",
+"meaning_ru": "Многолетнее растение с удлиненным стеблем или стволом, поддерживающим ветви и листья."
+},
+{
+"en": "chair",
+"ru": "стул",
+"meaning_en": "A separate seat for one person, typically with a back and four legs.",
+"meaning_ru": "Отдельное сиденье для одного человека, обычно с спинкой и четырьмя ножками."
+},
+{
+"en": "computer",
+"ru": "компьютер",
+"meaning_en": "An electronic device for storing and processing data.",
+"meaning_ru": "Электронное устройство для хранения и обработки данных."
+},
+{
+"en": "keyboard",
+"ru": "клавиатура",
+"meaning_en": "A set of keys used to input data into a computer.",
+"meaning_ru": "Набор клавиш, используемых для ввода данных в компьютер."
+},
+{
+"en": "phone",
+"ru": "телефон",
+"meaning_en": "A device used for voice communication over long distances.",
+"meaning_ru": "Устройство, используемое для голосовой связи на большие расстояния."
+},
+{
+"en": "table",
+"ru": "стол",
+"meaning_en": "A flat surface with legs, used for eating, working, or placing objects.",
+"meaning_ru": "Плоская поверхность с ногами, используемая для еды, работы или размещения предметов."
+},
+{
+"en": "window",
+"ru": "окно",
+"meaning_en": "An opening in the wall or roof of a building, often covered with glass.",
+"meaning_ru": "Отверстие в стене или крыше здания, часто закрытое стеклом."
+},
+{
+"en": "door",
+"ru": "дверь",
+"meaning_en": "A movable barrier used to open and close an entrance to a room or building.",
+"meaning_ru": "Подвижное препятствие, используемое для открытия и закрытия входа в комнату или здание."
+},
+{
+"en": "pen",
+"ru": "ручка",
+"meaning_en": "A writing instrument used for writing or drawing with ink.",
+"meaning_ru": "Инструмент для письма, использующий чернила."
+},
+{
+"en": "notebook",
+"ru": "блокнот",
+"meaning_en": "A book of blank pages used for writing or taking notes.",
+"meaning_ru": "Книга с пустыми страницами, используемая для письма или заметок."
+},
+{
+"en": "backpack",
+"ru": "рюкзак",
+"meaning_en": "A bag with shoulder straps, carried on the back, used for carrying things.",
+"meaning_ru": "Сумка с плечевыми ремнями, носимая на спине, используемая для ношения вещей."
+},
+{
+"en": "glasses",
+"ru": "очки",
+"meaning_en": "A pair of lenses set in a frame, worn to correct vision.",
+"meaning_ru": "Пара линз, установленных в оправе, носят для коррекции зрения."
+},
+{
+"en": "watch",
+"ru": "часы",
+"meaning_en": "A small timepiece worn on the wrist.",
+"meaning_ru": "Маленькое устройство для измерения времени, носимое на запястье."
+},
+{
+"en": "clock",
+"ru": "часы",
+"meaning_en": "An instrument for measuring and indicating time, typically displayed on a wall.",
+"meaning_ru": "Инструмент для измерения и отображения времени, обычно размещаемый на стене."
+},
+{
+"en": "shoe",
+"ru": "обувь",
+"meaning_en": "A covering for the foot, typically made of leather, rubber, or fabric.",
+"meaning_ru": "Покрытие для стопы, обычно сделанное из кожи, резины или ткани."
+},
+{
+"en": "sock",
+"ru": "носка",
+"meaning_en": "A piece of clothing worn on the foot, usually under a shoe.",
+"meaning_ru": "Предмет одежды, надеваемый на ногу, обычно под обувь."
+},
+{
+"en": "hat",
+"ru": "шляпа",
+"meaning_en": "A head covering, often worn for warmth, fashion, or protection from the sun.",
+"meaning_ru": "Головной убор, часто носят для тепла, моды или защиты от солнца."
+},
+{
+"en": "jacket",
+"ru": "куртка",
+"meaning_en": "A short coat, often with a zipper or buttons, worn for warmth or style.",
+"meaning_ru": "Короткое пальто, часто с молнией или пуговицами, носят для тепла или стиля."
+},
+{
+"en": "pants",
+"ru": "штаны",
+"meaning_en": "A piece of clothing covering the body from the waist to the ankles, typically with separate parts for each leg.",
+"meaning_ru": "Предмет одежды, покрывающий тело от пояса до лодыжек, обычно с отдельными частями для каждой ноги."
+},
+{
+"en": "shirt",
+"ru": "рубашка",
+"meaning_en": "A piece of clothing for the upper body, typically with a collar, sleeves, and buttons.",
+"meaning_ru": "Предмет одежды для верхней части тела, обычно с воротником, рукавами и пуговицами."
+},
+{
+"en": "dress",
+"ru": "платье",
+"meaning_en": "A one-piece garment worn by women or girls, typically covering the body from the shoulders to the knees or longer.",
+"meaning_ru": "Однослойное платье, носимое женщинами или девочками, обычно покрывающее тело от плеч до колен или ниже."
+},
+{
+"en": "skirt",
+"ru": "юбка",
+"meaning_en": "A piece of clothing worn by women or girls, covering the lower part of the body.",
+"meaning_ru": "Предмет одежды, носящийся женщинами или девочками, покрывающий нижнюю часть тела."
+},
+{
+"en": "shorts",
+"ru": "шорты",
+"meaning_en": "Short trousers that reach above the knees, worn in warm weather.",
+"meaning_ru": "Короткие брюки, достигающие выше колен, носятся в теплую погоду."
+},
+{
+"en": "sweater",
+"ru": "свитер",
+"meaning_en": "A knitted garment typically worn on the upper body for warmth.",
+"meaning_ru": "Вязаная одежда, обычно надеваемая на верхнюю часть тела для согрева."
+},
+{
+"en": "scarf",
+"ru": "шарф",
+"meaning_en": "A piece of cloth worn around the neck for warmth or decoration.",
+"meaning_ru": "Часть ткани, надеваемая вокруг шеи для тепла или украшения."
+},
+{
+"en": "umbrella",
+"ru": "зонт",
+"meaning_en": "A device used to protect oneself from rain or sun, typically with a collapsible canopy.",
+"meaning_ru": "Устройство, используемое для защиты от дождя или солнца, обычно с раскладывающимся куполом."
+},
+{
+"en": "bag",
+"ru": "сумка",
+"meaning_en": "A container used for carrying personal items.",
+"meaning_ru": "Контейнер, используемый для ношения личных вещей."
+},
+{
+"en": "wallet",
+"ru": "кошелек",
+"meaning_en": "A small folding case used to carry money, cards, and identification.",
+"meaning_ru": "Небольшой складной кейс, используемый для ношения денег, карт и удостоверений личности."
+},
+{
+"en": "purse",
+"ru": "сумочка",
+"meaning_en": "A small bag typically used by women to carry personal items.",
+"meaning_ru": "Маленькая сумка, обычно используемая женщинами для ношения личных вещей."
+},
+{
+"en": "belt",
+"ru": "пояс",
+"meaning_en": "A strip of leather or cloth worn around the waist to support clothing or hold accessories.",
+"meaning_ru": "Полоса из кожи или ткани, носимая вокруг талии для поддержания одежды или ношения аксессуаров."
+},
+{
+"en": "glove",
+"ru": "перчатка",
+"meaning_en": "A covering for the hand, usually made of leather or fabric, with separate parts for each finger.",
+"meaning_ru": "Покрытие для руки, обычно из кожи или ткани, с отдельными частями для каждого пальца."
+},
+{
+"en": "hat",
+"ru": "шляпа",
+"meaning_en": "A head covering, often worn for warmth, fashion, or protection from the sun.",
+"meaning_ru": "Головной убор, часто носят для тепла, моды или защиты от солнца."
+},
+{
+"en": "coat",
+"ru": "пальто",
+"meaning_en": "A long outer garment worn for warmth, usually with sleeves.",
+"meaning_ru": "Длинная верхняя одежда для тепла, обычно с рукавами."
+},
+{
+"en": "socks",
+"ru": "носки",
+"meaning_en": "A piece of clothing worn on the feet, typically under shoes.",
+"meaning_ru": "Предмет одежды, носящийся на ногах, обычно под обувь."
+},
+{
+"en": "scarf",
+"ru": "шарф",
+"meaning_en": "A piece of cloth worn around the neck for warmth or decoration.",
+"meaning_ru": "Часть ткани, надеваемая вокруг шеи для тепла или украшения."
+},
+{
+"en": "t-shirt",
+"ru": "футболка",
+"meaning_en": "A short-sleeved shirt, typically made of cotton, worn for casual wear.",
+"meaning_ru": "Футболка с короткими рукавами, обычно из хлопка, носится для повседневной носки."
+},
+{
+"en": "library",
+"ru": "библиотека",
+"meaning_en": "A place where books and other resources are kept for reading or borrowing.",
+"meaning_ru": "Место, где хранятся книги и другие ресурсы для чтения или заимствования."
+},
+{
+"en": "gym",
+"ru": "тренажерный зал",
+"meaning_en": "A facility equipped for physical exercise.",
+"meaning_ru": "Помещение, оборудованное для физических упражнений."
+},
+{
+"en": "balloon",
+"ru": "воздушный шар",
+"meaning_en": "A flexible container filled with gas, typically used for decoration or entertainment.",
+"meaning_ru": "Гибкий контейнер, наполненный газом, обычно используемый для декорации или развлечений."
+},
+{
+"en": "television",
+"ru": "телевидение",
+"meaning_en": "A device for receiving television broadcasts or watching media content.",
+"meaning_ru": "Устройство для приема телевизионных передач или просмотра медийного контента."
+},
+{
+"en": "train",
+"ru": "поезд",
+"meaning_en": "A series of connected railroad cars used for transportation.",
+"meaning_ru": "Серия соединенных железнодорожных вагонов, используемых для транспортировки."
+},
+{
+"en": "bike",
+"ru": "велосипед",
+"meaning_en": "A two-wheeled vehicle that is powered by pedaling.",
+"meaning_ru": "Двухколесное транспортное средство, приводимое в движение педалями."
+},
+{
+"en": "camera",
+"ru": "камера",
+"meaning_en": "A device used to capture images or videos.",
+"meaning_ru": "Устройство, используемое для захвата изображений или видео."
+},
+{
+"en": "photo",
+"ru": "фото",
+"meaning_en": "A picture taken with a camera.",
+"meaning_ru": "Картина, сделанная с помощью камеры."
+},
+{
+"en": "music",
+"ru": "музыка",
+"meaning_en": "The art of combining vocal or instrumental sounds to produce harmony or emotion.",
+"meaning_ru": "Искусство сочетания вокальных или инструментальных звуков для создания гармонии или эмоций."
+},
+{
+"en": "guitar",
+"ru": "гитара",
+"meaning_en": "A musical instrument with strings, typically played by plucking or strumming.",
+"meaning_ru": "Музыкальный инструмент с струнами, обычно играется с помощью щипка или перебора."
+},
+{
+"en": "piano",
+"ru": "пианино",
+"meaning_en": "A large musical instrument with keys, played by pressing the keys to produce sounds.",
+"meaning_ru": "Большой музыкальный инструмент с клавишами, играемый нажатием клавиш для создания звуков."
+},
+{
+"en": "violin",
+"ru": "скрипка",
+"meaning_en": "A string instrument played with a bow, typically used in classical music.",
+"meaning_ru": "Струнный инструмент, играемый смычком, обычно используется в классической музыке."
+},
+{
+"en": "drum",
+"ru": "барабан",
+"meaning_en": "A percussion instrument that produces sound by being struck.",
+"meaning_ru": "Ударный инструмент, который издает звук при ударе."
+},
+{
+"en": "singer",
+"ru": "певец",
+"meaning_en": "A person who uses their voice to make music.",
+"meaning_ru": "Человек, который использует свой голос для создания музыки."
+},
+{
+"en": "dancer",
+"ru": "танцор",
+"meaning_en": "A person who dances as an art form or activity.",
+"meaning_ru": "Человек, который танцует как искусство или деятельность."
+},
+{
+"en": "artist",
+"ru": "художник",
+"meaning_en": "A person skilled in a creative art, such as painting, drawing, or sculpture.",
+"meaning_ru": "Человек, обладающий навыками в творческом искусстве, таком как живопись, рисование или скульптура."
+},
+{
+"en": "actor",
+"ru": "актер",
+"meaning_en": "A person who performs in plays, movies, or television shows.",
+"meaning_ru": "Человек, который выступает в спектаклях, фильмах или телешоу."
+},
+{
+"en": "actress",
+"ru": "актриса",
+"meaning_en": "A female actor.",
+"meaning_ru": "Женщина-актер."
+},
+{
+"en": "theater",
+"ru": "театр",
+"meaning_en": "A place where plays, movies, or performances are presented.",
+"meaning_ru": "Место, где проходят спектакли, фильмы или выступления."
+},
+{
+"en": "bookstore",
+"ru": "книжный магазин",
+"meaning_en": "A shop where books are sold.",
+"meaning_ru": "Магазин, где продаются книги."
+},
+{
+"en": "supermarket",
+"ru": "супермаркет",
+"meaning_en": "A large self-service store selling a variety of goods.",
+"meaning_ru": "Большой магазин самообслуживания, продающий различные товары."
+},
+{
+"en": "market",
+"ru": "рынок",
+"meaning_en": "A place where goods are bought and sold.",
+"meaning_ru": "Место, где покупаются и продаются товары."
+},
+{
+"en": "restaurant",
+"ru": "ресторан",
+"meaning_en": "A place where meals are served to customers.",
+"meaning_ru": "Место, где клиентам подают еду."
+},
+{
+"en": "cafe",
+"ru": "кафе",
+"meaning_en": "A small restaurant serving light meals and drinks.",
+"meaning_ru": "Небольшой ресторан, предлагающий легкие блюда и напитки."
+},
+{
+"en": "bar",
+"ru": "бар",
+"meaning_en": "A place where alcoholic drinks are served.",
+"meaning_ru": "Место, где подают алкогольные напитки."
+},
+{
+"en": "hotel",
+"ru": "отель",
+"meaning_en": "A place where people pay to stay while traveling.",
+"meaning_ru": "Место, где люди платят за проживание во время путешествий."
+},
+{
+"en": "beach",
+"ru": "пляж",
+"meaning_en": "A sandy shore of a body of water, typically the sea.",
+"meaning_ru": "Песчаный берег водоема, обычно моря."
+},
+{
+"en": "pool",
+"ru": "бассейн",
+"meaning_en": "A structure filled with water for swimming or recreational activities.",
+"meaning_ru": "Сооружение, заполненное водой, для плавания или рекреационных занятий."
+},
+{
+"en": "mountain",
+"ru": "гора",
+"meaning_en": "A large natural elevation of the earth's surface.",
+"meaning_ru": "Большое естественное возвышение земной поверхности."
+},
+{
+"en": "volcano",
+"ru": "вулкан",
+"meaning_en": "A mountain with a crater or vent from which lava and gases are erupted.",
+"meaning_ru": "Гора с кратером или отверстием, из которого извергаются лава и газы."
+},
+{
+"en": "desert",
+"ru": "пустыня",
+"meaning_en": "A dry, barren area of land with little or no vegetation.",
+"meaning_ru": "Сухая, бесплодная земля с малым или отсутствующим растительным миром."
+},
+{
+"en": "forest",
+"ru": "лес",
+"meaning_en": "A large area covered chiefly with trees and undergrowth.",
+"meaning_ru": "Большая территория, в основном покрытая деревьями и подлеском."
+},
+{
+"en": "river",
+"ru": "река",
+"meaning_en": "A large natural stream of water flowing toward an ocean, lake, or another river.",
+"meaning_ru": "Большой природный поток воды, направляющийся к океану, озеру или другой реке."
+},
+{
+"en": "lake",
+"ru": "озеро",
+"meaning_en": "A large body of water surrounded by land.",
+"meaning_ru": "Большое водоем, окруженный землей."
+},
+{
+"en": "ocean",
+"ru": "океан",
+"meaning_en": "The vast body of saltwater that covers most of the Earth's surface.",
+"meaning_ru": "Огромный водоем соленой воды, который покрывает большую часть поверхности Земли."
+},
+{
+"en": "island",
+"ru": "остров",
+"meaning_en": "A piece of land surrounded by water.",
+"meaning_ru": "Кусок земли, окруженный водой."
+},
+{
+"en": "desert",
+"ru": "пустыня",
+"meaning_en": "A barren, dry landscape with little or no vegetation.",
+"meaning_ru": "Бесплодный, сухой ландшафт с малым или отсутствующим растительностью."
+},
+{
+"en": "keyboard",
+"ru": "клавиатура",
+"meaning_en": "A set of keys that are used to input data into a computer or device.",
+"meaning_ru": "Набор клавиш, которые используются для ввода данных в компьютер или устройство."
+},
+{
+"en": "mouse",
+"ru": "мышь",
+"meaning_en": "A hand-held device used to interact with a computer screen.",
+"meaning_ru": "Ручное устройство, используемое для взаимодействия с экраном компьютера."
+},
+{
+"en": "laptop",
+"ru": "ноутбук",
+"meaning_en": "A portable personal computer that is small and light enough to be used on one's lap.",
+"meaning_ru": "Портативный персональный компьютер, достаточно маленький и легкий, чтобы использовать его на коленях."
+},
+{
+"en": "tablet",
+"ru": "планшет",
+"meaning_en": "A mobile computing device with a touchscreen interface.",
+"meaning_ru": "Мобильное вычислительное устройство с сенсорным экраном."
+},
+{
+"en": "printer",
+"ru": "принтер",
+"meaning_en": "A machine that produces a paper copy of documents or images from a computer.",
+"meaning_ru": "Машина, которая создает бумажную копию документов или изображений с компьютера."
+},
+{
+"en": "speaker",
+"ru": "динамик",
+"meaning_en": "An output device that produces sound from audio signals.",
+"meaning_ru": "Устройство вывода, которое производит звук из аудиосигналов."
+},
+{
+"en": "camera",
+"ru": "камера",
+"meaning_en": "A device used to capture images or video.",
+"meaning_ru": "Устройство, используемое для захвата изображений или видео."
+},
+{
+"en": "monitor",
+"ru": "монитор",
+"meaning_en": "A screen used to display the output of a computer or other device.",
+"meaning_ru": "Экран, используемый для отображения вывода компьютера или другого устройства."
+},
+{
+"en": "hard drive",
+"ru": "жесткий диск",
+"meaning_en": "A device used for storing data on a computer.",
+"meaning_ru": "Устройство для хранения данных на компьютере."
+},
+{
+"en": "flash drive",
+"ru": "флеш-накопитель",
+"meaning_en": "A small portable device for storing and transferring data.",
+"meaning_ru": "Небольшое портативное устройство для хранения и передачи данных."
+},
+{
+"en": "website",
+"ru": "веб-сайт",
+"meaning_en": "A collection of pages accessible through the internet, often containing information or services.",
+"meaning_ru": "Сборник страниц, доступных через интернет, часто содержащих информацию или услуги."
+},
+{
+"en": "app",
+"ru": "приложение",
+"meaning_en": "A software program designed to perform a specific task or function.",
+"meaning_ru": "Программное обеспечение, предназначенное для выполнения конкретной задачи или функции."
+},
+{
+"en": "cloud",
+"ru": "облако",
+"meaning_en": "A network of servers that store and manage data remotely over the internet.",
+"meaning_ru": "Сеть серверов, которая хранит и управляет данными удаленно через интернет."
+},
+{
+"en": "password",
+"ru": "пароль",
+"meaning_en": "A secret word or phrase used to gain access to a system or account.",
+"meaning_ru": "Секретное слово или фраза, используемая для доступа к системе или аккаунту."
+},
+{
+"en": "security",
+"ru": "безопасность",
+"meaning_en": "Measures taken to protect a system or network from unauthorized access or attacks.",
+"meaning_ru": "Меры, предпринимаемые для защиты системы или сети от несанкционированного доступа или атак."
+},
+{
+"en": "database",
+"ru": "база данных",
+"meaning_en": "An organized collection of data, often stored electronically in a computer system.",
+"meaning_ru": "Организованная коллекция данных, часто хранящаяся в электронном виде в компьютерной системе."
+},
+{
+"en": "file",
+"ru": "файл",
+"meaning_en": "A collection of data or information stored on a computer or device.",
+"meaning_ru": "Коллекция данных или информации, хранящаяся на компьютере или устройстве."
+},
+{
+"en": "email",
+"ru": "электронная почта",
+"meaning_en": "A method of exchanging digital messages over the internet.",
+"meaning_ru": "Метод обмена цифровыми сообщениями через интернет."
+},
+{
+"en": "chat",
+"ru": "чат",
+"meaning_en": "A real-time online conversation between two or more people.",
+"meaning_ru": "Онлайн-беседа в реальном времени между двумя или более людьми."
+},
+{
+"en": "social media",
+"ru": "социальные сети",
+"meaning_en": "Online platforms where people can create and share content, or interact with others.",
+"meaning_ru": "Онлайн-платформы, где люди могут создавать и делиться контентом или взаимодействовать с другими."
+},
+{
+"en": "blog",
+"ru": "блог",
+"meaning_en": "A website or online journal where content is regularly updated.",
+"meaning_ru": "Веб-сайт или онлайн-дневник, где регулярно обновляется контент."
+},
+{
+"en": "forum",
+"ru": "форум",
+"meaning_en": "An online discussion platform where people can post messages and reply to others.",
+"meaning_ru": "Онлайн-платформа для обсуждений, где люди могут публиковать сообщения и отвечать на другие."
+},
+{
+"en": "video call",
+"ru": "видеозвонок",
+"meaning_en": "A call where people can see and hear each other using video and audio technology.",
+"meaning_ru": "Звонок, где люди могут видеть и слышать друг друга с использованием видеотехнологий и аудио."
+},
+{
+"en": "chatbot",
+"ru": "чат-бот",
+"meaning_en": "A program that simulates human conversation through text or voice interactions.",
+"meaning_ru": "Программа, имитирующая человеческое общение через текстовые или голосовые взаимодействия."
+},
+{
+"en": "search engine",
+"ru": "поисковая система",
+"meaning_en": "A software system designed to search for information on the internet.",
+"meaning_ru": "Программная система, предназначенная для поиска информации в интернете."
+},
+{
+"en": "link",
+"ru": "ссылка",
+"meaning_en": "A reference or navigation element that connects to another document or webpage.",
+"meaning_ru": "Ссылка или элемент навигации, который соединяет с другим документом или веб-страницей."
+},
+{
+"en": "hashtag",
+"ru": "хештег",
+"meaning_en": "A word or phrase preceded by the symbol '#' used to tag or categorize posts on social media.",
+"meaning_ru": "Слово или фраза, предшествующие символу '#', используемые для тегирования или категоризации постов в социальных сетях."
+},
+{
+"en": "emoji",
+"ru": "эмодзи",
+"meaning_en": "A small digital image or icon used to express an idea, emotion, or concept.",
+"meaning_ru": "Маленькое цифровое изображение или иконка, используемая для выражения идеи, эмоции или концепта."
+},
+{
+"en": "meme",
+"ru": "мем",
+"meaning_en": "A humorous or viral piece of content, often shared online.",
+"meaning_ru": "Юмористический или вирусный контент, часто распространяемый в интернете."
+},
+{
+"en": "file transfer",
+"ru": "перенос файлов",
+"meaning_en": "The process of sending or moving files from one device to another.",
+"meaning_ru": "Процесс отправки или перемещения файлов с одного устройства на другое."
+},
+{
+"en": "download",
+"ru": "скачать",
+"meaning_en": "To transfer a file from the internet or another device to one's own device.",
+"meaning_ru": "Переносить файл из интернета или с другого устройства на свое устройство."
+},
+{
+"en": "upload",
+"ru": "загрузить",
+"meaning_en": "To transfer a file from one's device to the internet or another device.",
+"meaning_ru": "Переносить файл с устройства в интернет или на другое устройство."
+},
+{
+"en": "streaming",
+"ru": "стриминг",
+"meaning_en": "The process of watching or listening to content online in real-time, without downloading it.",
+"meaning_ru": "Процесс просмотра или прослушивания контента онлайн в реальном времени без его скачивания."
+},
+{
+"en": "animation",
+"ru": "аниматика",
+"meaning_en": "The process of creating moving images from static images or drawings.",
+"meaning_ru": "Процесс создания движущихся изображений из статичных изображений или рисунков."
+},
+{
+"en": "game",
+"ru": "игра",
+"meaning_en": "An activity with rules where participants engage in play for entertainment or competition.",
+"meaning_ru": "Деятельность с правилами, в которой участники принимают участие ради развлечения или соревнования."
+},
+{
+"en": "virtual reality",
+"ru": "виртуальная реальность",
+"meaning_en": "A computer-generated environment that simulates real or imaginary worlds.",
+"meaning_ru": "Компьютерно-сгенерированная среда, которая имитирует реальные или вымышленные миры."
+},
+{
+"en": "augmented reality",
+"ru": "дополненная реальность",
+"meaning_en": "An interactive experience where digital elements are overlaid on the physical world.",
+"meaning_ru": "Интерактивный опыт, где цифровые элементы накладываются на физический мир."
+},
+{
+"en": "robot",
+"ru": "робот",
+"meaning_en": "A machine capable of carrying out tasks automatically, often programmed to simulate human actions.",
+"meaning_ru": "Машина, способная выполнять задачи автоматически, часто запрограммированная для имитации человеческих действий."
+},
+{
+"en": "algorithm",
+"ru": "алгоритм",
+"meaning_en": "A set of rules or instructions used to solve a problem or complete a task.",
+"meaning_ru": "Набор правил или инструкций, используемых для решения проблемы или выполнения задачи."
+},
+{
+"en": "paradox",
+"ru": "парадокс",
+"meaning_en": "A statement or situation that contradicts itself, or seems both true and false.",
+"meaning_ru": "Утверждение или ситуация, которые противоречат сами себе или кажутся одновременно истинными и ложными."
+},
+{
+"en": "quantum",
+"ru": "квант",
+"meaning_en": "A discrete quantity of energy or matter.",
+"meaning_ru": "Дискретное количество энергии или вещества."
+},
+{
+"en": "metaphor",
+"ru": "метафора",
+"meaning_en": "A figure of speech where a word or phrase is applied to an object or action to which it is not literally applicable.",
+"meaning_ru": "Фигура речи, в которой слово или фраза применяется к объекту или действию, к которому оно не относится в буквальном смысле."
+},
+{
+"en": "obfuscate",
+"ru": "осложнять",
+"meaning_en": "To deliberately make something unclear or difficult to understand.",
+"meaning_ru": "Преднамеренно делать что-то непонятным или трудным для понимания."
+},
+{
+"en": "ephemeral",
+"ru": "мимолетный",
+"meaning_en": "Lasting for a very short time.",
+"meaning_ru": "Длящееся очень короткое время."
+},
+{
+"en": "serendipity",
+"ru": "счастливый случай",
+"meaning_en": "The occurrence of events by chance in a happy or beneficial way.",
+"meaning_ru": "Происшествие событий случайным образом, но в счастливом или полезном ключе."
+},
+{
+"en": "superfluous",
+"ru": "избыточный",
+"meaning_en": "Unnecessary, especially through being more than enough.",
+"meaning_ru": "Ненужный, особенно из-за того, что этого больше чем достаточно."
+},
+{
+"en": "cognitive",
+"ru": "когнитивный",
+"meaning_en": "Relating to the mental processes of perception, memory, judgment, and reasoning.",
+"meaning_ru": "Относящийся к умственным процессам восприятия, памяти, суждения и рассуждения."
+},
+{
+"en": "melancholy",
+"ru": "меланхолия",
+"meaning_en": "A deep, persistent sadness or sorrow, often with no apparent cause.",
+"meaning_ru": "Глубокая, устойчивая грусть или печаль, часто без видимой причины."
+},
+{
+"en": "cacophony",
+"ru": "какофония",
+"meaning_en": "A harsh, discordant mixture of sounds.",
+"meaning_ru": "Грубая, дисгармоничная смесь звуков."
+},
+{
+"en": "defenestration",
+"ru": "выбрасывание через окно",
+"meaning_en": "The act of throwing someone or something out of a window.",
+"meaning_ru": "Акт выбрасывания кого-то или чего-то из окна."
+},
+{
+"en": "nebulous",
+"ru": "неясный",
+"meaning_en": "In the form of a cloud or haze; hazy; unclear.",
+"meaning_ru": "В форме облака или тумана; туманный; неясный."
+},
+{
+"en": "idiosyncratic",
+"ru": "идиосинкразический",
+"meaning_en": "Relating to the peculiar characteristics or habits of an individual.",
+"meaning_ru": "Относящийся к особенностям или привычкам отдельного человека."
+},
+{
+"en": "periphery",
+"ru": "периферия",
+"meaning_en": "The outer limits or edge of an area or object.",
+"meaning_ru": "Внешние пределы или край области или объекта."
+},
+{
+"en": "epicenter",
+"ru": "эпицентр",
+"meaning_en": "The point on the Earth's surface directly above the focus of an earthquake.",
+"meaning_ru": "Точка на поверхности Земли, непосредственно над фокусом землетрясения."
+},
+{
+"en": "anomaly",
+"ru": "аномалия",
+"meaning_en": "Something that deviates from what is standard, normal, or expected.",
+"meaning_ru": "Что-то, что отклоняется от нормы, стандартного или ожидаемого."
+},
+{
+"en": "salvage",
+"ru": "спасать",
+"meaning_en": "To rescue or save something from damage or destruction.",
+"meaning_ru": "Спасти или сохранить что-то от повреждения или разрушения."
+},
+{
+"en": "perpetuate",
+"ru": "увековечивать",
+"meaning_en": "To cause something to continue indefinitely.",
+"meaning_ru": "Заставить что-то продолжаться бесконечно."
+},
+{
+"en": "omniscient",
+"ru": "всезнающий",
+"meaning_en": "Having complete or unlimited knowledge, awareness, or understanding.",
+"meaning_ru": "Обладающий полным или неограниченным знанием, осведомленностью или пониманием."
+},
+{
+"en": "exacerbate",
+"ru": "обострять",
+"meaning_en": "To make a situation or condition worse.",
+"meaning_ru": "Ухудшать ситуацию или состояние."
+},
+{
+"en": "catharsis",
+"ru": "катарсис",
+"meaning_en": "The process of releasing, and thereby providing relief from, strong or repressed emotions.",
+"meaning_ru": "Процесс освобождения, а следовательно, облегчения от сильных или подавленных эмоций."
+},
+{
+"en": "vicarious",
+"ru": "вторичный",
+"meaning_en": "Experienced in the imagination through the feelings or actions of another person.",
+"meaning_ru": "Испытываемый в воображении через чувства или действия другого человека."
+},
+{
+"en": "nostalgia",
+"ru": "ностальгия",
+"meaning_en": "A sentimental longing or wistful affection for the past.",
+"meaning_ru": "Сентиментальная тоска или тоскливое привязанность к прошлому."
+},
+{
+"en": "juxtapose",
+"ru": "сопоставлять",
+"meaning_en": "To place two or more things side by side, often for comparison.",
+"meaning_ru": "Разместить два или более предметов рядом, часто для сравнения."
+},
+{
+"en": "ubiquitous",
+"ru": "вездесущий",
+"meaning_en": "Present, appearing, or found everywhere.",
+"meaning_ru": "Присутствующий, появляющийся или найденный повсюду."
+},
+{
+"en": "resilient",
+"ru": "жизнестойкий",
+"meaning_en": "Able to recover quickly from difficult conditions.",
+"meaning_ru": "Способный быстро восстанавливаться после трудных условий."
+},
+{
+"en": "concise",
+"ru": "краткий",
+"meaning_en": "Giving much information clearly and in a few words.",
+"meaning_ru": "Предоставляющий много информации ясно и коротко."
+},
+{
+"en": "fluctuate",
+"ru": "колебаться",
+"meaning_en": "To rise and fall irregularly in number or amount.",
+"meaning_ru": "Нерегулярно увеличиваться и уменьшаться по числу или количеству."
+},
+{
+"en": "euphoria",
+"ru": "эйфория",
+"meaning_en": "A feeling or state of intense excitement and happiness.",
+"meaning_ru": "Чувство или состояние интенсивного волнения и счастья."
+},
+{
+"en": "ubiquity",
+"ru": "вездесущность",
+"meaning_en": "The fact of being present or found everywhere.",
+"meaning_ru": "Факт присутствия или нахождения повсюду."
+},
+{
+"en": "cogent",
+"ru": "убедительный",
+"meaning_en": "Clear, logical, and convincing.",
+"meaning_ru": "Ясный, логичный и убедительный."
+},
+{
+"en": "debilitate",
+"ru": "ослаблять",
+"meaning_en": "To make someone or something physically weak.",
+"meaning_ru": "Сделать кого-то или что-то физически слабым."
+},
+{
+"en": "affinity",
+"ru": "сходство",
+"meaning_en": "A natural liking for or attraction to a person, thing, or idea.",
+"meaning_ru": "Естественное влечение или привязанность к человеку, вещи или идее."
+},
+{
+"en": "relinquish",
+"ru": "отказаться",
+"meaning_en": "To voluntarily give up or release control of something.",
+"meaning_ru": "Добровольно отказаться или освободить что-то от контроля."
+},
+{
+"en": "conundrum",
+"ru": "загадка",
+"meaning_en": "A confusing and difficult problem or question.",
+"meaning_ru": "Запутанная и трудная проблема или вопрос."
+},
+{
+"en": "pervasive",
+"ru": "распространенный",
+"meaning_en": "Spreading widely throughout an area or a group of people.",
+"meaning_ru": "Широко распространяющийся по области или среди группы людей."
+},
+{
+"en": "enigmatic",
+"ru": "загадочный",
+"meaning_en": "Difficult to interpret or understand; mysterious.",
+"meaning_ru": "Трудный для интерпретации или понимания; таинственный."
+},
+{
+"en": "lucid",
+"ru": "ясный",
+"meaning_en": "Expressed clearly; easy to understand.",
+"meaning_ru": "Ясно выраженный; легкий для понимания."
+},
+{
+"en": "scintillating",
+"ru": "искрящийся",
+"meaning_en": "Sparkling or shining brightly.",
+"meaning_ru": "Искрящийся или ярко сияющий."
+}
+]
