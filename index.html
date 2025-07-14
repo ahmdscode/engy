@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engy - Готовый бизнес для изучения английского в Telegram</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+            font-family: "Source Sans 3", sans-serif;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 90%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+            margin: 30px 0 15px;
+        }
+
+        p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        ul li {
+            font-size: 16px;
+            margin: 8px 0;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        ul li:before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #333333;
+        }
+
+        .order-example {
+            background-color: #f7f7f7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-size: 16px;
+            line-height: 1.8;
+            border: 1px solid #e0e0e0;
+        }
+
+        .order-example p {
+            margin: 5px 0;
+        }
+
+        .telegram-link {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 16px;
+        }
+
+        audio {
+            display: block;
+            margin-top: 15px;
+            width: 100%;
+            border-radius: 55px;
+            border: 1px solid #d1d1d1;
+        }
+
+        .link-style {
+            font-weight: 700;
+            color: #0084c6;
+            text-decoration: none;
+        }
+
+        .link-style:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p, ul li, .order-example {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Telegram-бот Engy: Готовый бизнес для изучения английского в Telegram</h1>
+        <p><strong>Engy</strong> — готовый проект для запуска образовательного бизнеса в Telegram. Этот бот создан для эффективного освоения английского языка через реальные диалоги с переводом и произношением.</p>
+
+        <h2>Возможности бота Engy</h2>
+        <p><strong>1. Команда /get: Ежедневные уроки</strong><br>
+        Бот отправляет короткие диалоги на английском с переводом на выбранный язык, чтобы пользователи практиковали разговорные фразы.</p>
+        <div class="order-example">
+            <p><strong>Описание:</strong> Разговор о здоровом питании.<br><br>
+            <strong>
+            · I've been eating healthier these days.<br>
+            · Really? What changes did you make?<br>
+            · I cut out junk food and started cooking more at home.<br>
+            · Great! I should probably do the same.<br>
+             </strong><br>
+            · В последнее время я питаюсь полезнее.<br>
+            · Правда? Что ты изменил?<br>
+            · Я отказался от фастфуда и стал больше готовить дома.<br>
+            · Отлично! Мне, наверное, тоже стоит так сделать.</p>
+            <audio controls>
+                <source src="lesson.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <p><strong>2. Команда /word: Новые слова</strong><br>
+        Пользователь получает слово на английском, его перевод и значение, чтобы расширять словарный запас.</p>
+        <div class="order-example">
+            <p><strong>Apple</strong><br>
+            Яблоко<br><br>
+            <strong>Meaning: A round fruit with red or green skin and a whitish interior.</strong><br>
+            Значение: Круглый фрукт с красной или зеленой кожурой и беловатым внутри.</p>
+            <audio controls>
+                <source src="word.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <p><strong>3. Команда /say: Произношение</strong><br>
+        Пользователь выбирает голос и отправляет текст, а бот возвращает аудио с правильным произношением, помогая улучшить навыки аудирования и речи.</p>
+
+        <p><strong>4. Команда /translate: Перевод текста</strong><br>
+        Позволяет переводить текст на английский или с английского на язык пользователя, поддерживая естественное общение и обучение.</p>
+
+        <p><strong>5. Многоязычная поддержка</strong><br>
+        Интерфейс доступен на 20 языках (русский, китайский, хинди, арабский и др.), с автоматическим переводом уроков и слов.</p>
+
+        <p><strong>6. Премиум-возможности</strong><br>
+        Премиум-пользователи получают увеличенные лимиты на уроки, переводы и произношение, что повышает вовлечённость и создаёт дополнительный источник дохода.</p>
+
+        <h2>Главные преимущества Engy для вашего бизнеса</h2>
+        <ul>
+            <li><strong>Автоматизация</strong>: Бот работает 24/7, отправляя уроки без вашего постоянного участия.</li>
+            <li><strong>Монетизация</strong>: Премиум-подписки увеличивают доход, а простой интерфейс привлекает больше пользователей.</li>
+            <li><strong>Глобальный охват</strong>: Поддержка 20 языков позволяет привлекать аудиторию со всего мира.</li>
+            <li><strong>Масштабируемость</strong>: Подходит для малого бизнеса или крупных образовательных платформ.</li>
+        </ul>
+
+        <h2>Дополнительные преимущества</h2>
+        <ul>
+            <li><strong>Админ-функции</strong>: Рассылка сообщений, управление премиум-статусом, бан/разбан пользователей.</li>
+            <li><strong>Аналитика</strong>: Отслеживание активности пользователей (уроки, слова, переводы) для оптимизации контента.</li>
+            <li><strong>Удобство</strong>: Простые команды и интуитивный интерфейс.</li>
+            <li><strong>Кроссплатформенность</strong>: Работает на любом устройстве через Telegram.</li>
+        </ul>
+
+        <h2>Для кого подойдёт Engy?</h2>
+        <ul>
+            <li><strong>Стартаперам и бизнесменам</strong>: Запустите свой образовательный проект без сложных IT-разработок.</li>
+            <li><strong>Учителям и репетиторам</strong>: Автоматизируйте обучение и предложите своим ученикам удобный формат в Telegram.</li>
+            <li><strong>Владельцам Telegram-каналов</strong>: Монетизируйте подписчиков, предлагая им ценный сервис для изучения английского.</li>
+            <li><strong>Маркетологам и агентствам</strong>: Добавьте в портфель новый продукт — готовую платформу для онлайн-обучения.</li>
+        </ul>
+
+        <p>Engy — это готовый бизнес для обучения английскому, который привлекает пользователей удобством, автоматизацией и персонализацией. Это идеальное решение для предпринимателей, желающих запустить образовательный проект с минимальными затратами.</p>
+
+        <h2>Контакты для связи</h2>
+        <ul>
+            <li>Telegram: <a href="https://t.me/+79993996636" class="link-style">t.me/+79993996636</a></li>
+            <li>WhatsApp: <a href="https://wa.me/79993996636" class="link-style">wa.me/+79993996636</a></li>
+            <li>Телефон: <a href="tel:+79993996636" class="link-style">+7 999 399 66 36</a></li>
+        </ul>
+        <strong>
+        <p>Чтобы ознакомиться с ботом, перейдите по ссылке и запустите бота: <a href="https://t.me/EngyAIBot" class="link-style">@EngyAIBot</a></p>
+
+        </strong>
+    </div>
+</body>
+</html>
